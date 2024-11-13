@@ -14,11 +14,13 @@
               <div class="flex justify-end">
                 <button class="w-1/2 mt-4 py-2 bg-x-lightgreen rounded-lg text-sm flex justify-center gap-2">
                   <img src="{{ asset('images/logo/icon-location.png')}}" class="w-auto h-full"/>
-                  <p>Presensi Disini</p>
+                  <a href="{{ route('presensi') }}" class="text-white">
+                    <p>Presensi Disini</p>
+                  </a>
                 </button>
               </div>
             </div>
-          
+
             <!-- Pertemuan 2 -->
             <div class="w-[calc((100%/3)-1rem)] bg-x-red p-4 rounded-xl text-white">
               <h3 class="text-lg font-semibold">Pertemuan 2</h3>
@@ -26,11 +28,12 @@
               <div class="flex justify-end">
                 <button class="w-1/2 mt-4 py-2 bg-x-lightred rounded-lg text-sm flex justify-center gap-2">
                   <img src="{{ asset('images/logo/icon-location.png')}}" class="w-auto h-full"/>
+                  <a href="{{ route('presensi') }}" class="text-white">
                   <p>Presensi Disini</p>
                 </button>
               </div>
             </div>
           </div>
-          
+
     </div>
 </x-app>
